@@ -10,10 +10,10 @@ app
   .use((req, res, next) => {
     res.setHeader('Access-Control-Allow-Origin', '*');
     res.setHeader(
-      'Access-Control-Allow-Origin',
+      'Access-Control-Allow-Headers',
       'Orgin, X-Requested_With, Content_Type, Accept, Z-Key'
     );
-    res.setHeader('Content-Type', 'Application/json');
+    res.setHeader('Content-Type', 'application/json');
     res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
     next();
   })
