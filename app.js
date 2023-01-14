@@ -11,7 +11,7 @@ app
     res.setHeader('Access-Control-Allow-Origin', '*');
     res.setHeader(
       'Access-Control-Allow-Headers',
-      'Orgin, X-Requested_With, Content_Type, Accept, Z-Key'
+      'Origin, X-Requested_With, Content-Type, Accept, Z-Key'
     );
     res.setHeader('Content-Type', 'application/json');
     res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
